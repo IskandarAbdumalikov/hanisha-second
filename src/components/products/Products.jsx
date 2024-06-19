@@ -49,6 +49,7 @@ const Products = () => {
       </div>
       <div className="products__category">
         <ul>
+          <li>all</li>
           {categories}
         </ul>
       </div>
