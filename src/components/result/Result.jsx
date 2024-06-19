@@ -4,8 +4,8 @@ import tomatoGirl from "../../assets/images/TomA.png"
 
 const Result = () => {
   return (
-    <div className="result">
-      <div className="result__text container">
+    <div className="result container">
+      <div className="result__text">
         <h2 className="result__heading">
           Seedra helps to grow fast and efficient
         </h2>
