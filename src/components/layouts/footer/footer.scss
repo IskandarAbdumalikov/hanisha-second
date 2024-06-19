@@ -1,13 +1,14 @@
 footer {
   display: flex;
   flex-direction: column;
+  background: white;
 }
 
 .footer__top {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 0px;
+  padding: 20px 0px !important;
   border-bottom: 1px solid #359740;
 }
 
@@ -31,7 +32,7 @@ footer {
 }
 
 .footer__bottom {
-  padding: 20px 0px;
+  padding: 20px 0px !important;
   display: flex;
   align-items: center;
   justify-content: space-between;

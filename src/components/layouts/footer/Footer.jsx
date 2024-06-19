@@ -7,8 +7,8 @@ import facebook from "../../../assets/images/facebookFooter.svg";
 
 const Footer = () => {
   return (
-    <footer className="container">
-      <div className="footer__top">
+    <footer className="">
+      <div className="footer__top container">
         <div className="footer__left__list">
           <Link>ALL PRODUCTS</Link>
           <Link>ABOUT SEEDRA</Link>
@@ -22,7 +22,7 @@ const Footer = () => {
           <Link className="no-border">Privacy Policy</Link>
         </div>
       </div>
-      <div className="footer__bottom">
+      <div className="footer__bottom container">
         <div className="footer__bottom__left">
           <img src={instagram} alt="" />
           <img src={facebook} alt="" />
